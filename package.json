@@ -1,0 +1,45 @@
+{
+  "name": "SimpleApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@ant-design/react-native": "^3.0.5",
+    "axios": "^0.18.0",
+    "babel-plugin-import": "^1.11.0",
+    "crypto-js": "^3.1.9-1",
+    "lodash": "^4.17.11",
+    "react": "16.6.3",
+    "react-native": "0.57.8",
+    "react-native-actionsheet": "^2.4.2",
+    "react-native-device-info": "^0.24.3",
+    "react-native-gesture-handler": "^1.0.12",
+    "react-native-keyboard-aware-scroll-view": "^0.8.0",
+    "react-native-md5": "^1.0.0",
+    "react-native-modalbox": "^1.6.0",
+    "react-native-picker": "^4.3.7",
+    "react-native-spinkit": "^1.1.1",
+    "react-native-splash-screen": "^3.1.1",
+    "react-native-wechat": "^1.9.10",
+    "react-navigation": "^3.0.8",
+    "react-navigation-redux-helpers": "^2.0.8",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-axios-middleware": "^4.0.0",
+    "redux-saga": "^0.16.2",
+    "rn-root-siblings": "^2.0.0",
+    "teaset": "^0.5.10"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.51.0",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

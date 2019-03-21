@@ -1,0 +1,39 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Push a new release build to the App Store"
+  lane :release do
+    increment_build_number(xcodeproj: "SimpleApp.xcodeproj")
+    build_app(scheme: "SimpleApp")
+    upload_to_app_store
+  end
+
+  lane :to_pgy do
+    increment_build_number
+    sigh(adhoc: true)
+    gym(
+      output_directory: './firim',
+      export_options: {
+        teamID: "3SWR22SFDH",
+        thinning: "<none>"
+      },
+      scheme: "app"
+    )
+    pgyer(api_key: "25152a235e59946f0f4c940f99f0098a", user_key: "ecfec03959dc9d4107778a5e82990c17")
+  end
+end

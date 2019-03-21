@@ -1,0 +1,66 @@
+const ActionTypes = {
+  // 请求
+  LOGIN_ACTION: null,
+  LOGIN_SUCCESS: null,
+
+  BEGIN_CALCULATE_MEDICINE: null,
+  BEGIN_CALCULATE_MEDICINE_SUCCESS: null,
+
+  SAVE_SOLUTION_ID: null,
+  SAVE_SOLUTION_ID_SUCCESS: null,
+
+  // QuerySolutions
+  QUERY_SOLUTIONS: null,
+  QUERY_SOLUTIONS_SUCCESS: null,
+
+  GET_USERINFO: null,
+  GET_UERINFO_SUCCESS: null,
+
+  UPDATE_USERNAME: null,
+  UPDATE_USERNAME_SUCCESS: null,
+
+  UPDATE_WX_ACCOUNT: null,
+  UPDATE_WX_ACCOUNT_SUCCESS: null,
+
+  UPDATE_HOSPITAL: null,
+  UPDATE_HOSPITAL_SUCCESS: null,
+
+  UPDATE_DEPARTMENT: null,
+  UPDATE_DEPARTMENT_SUCCESS: null,
+
+  UPDATE_PASSWORD: null,
+  UPDATE_PASSWORD_SUCCESS: null,
+
+  ADJUST_CALCULATE: null,
+  ADJUST_CALCULATE_SUCCESS: null,
+
+  QUERY_ADJUST_SOLUTIONS: null,
+  QUERY_ADJUST_SOLUTIONS_SUCCESS: null,
+
+  GET_ADMIN_INFO: null,
+  GET_ADMIN_INFO_SUCCESS: null,
+
+  LOGOUT: null,
+  GET_ACCESSTOKEN: null,
+  GET_WX_USERINFO: null,
+
+  WX_LOGIN: null,
+  WX_LOGIN_SUCCESS: null,
+
+  SET_RELOAD_STATUE: null,
+
+  LOGOUT_ACTION: null,
+
+  PREDICT_CONCENTRATION_CALC: null,
+  // initConcentrationCalc
+  INIT_CONCENTRATION_CALC: null,
+
+  GET_SERVER_VERSION: null,
+
+  GET_MEDICINES: null,
+}
+for (let key in ActionTypes) {
+  ActionTypes[key] = key;
+}
+
+export default ActionTypes

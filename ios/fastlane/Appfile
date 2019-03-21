@@ -1,0 +1,8 @@
+app_identifier("com.rongletech.wangu") # The bundle identifier of your app
+apple_id("lovesunyujian@126.com") # Your Apple email address
+
+itc_team_id("119557153") # App Store Connect Team ID
+team_id("3SWR22SFDH") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

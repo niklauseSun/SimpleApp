@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>FBE89339-30DF-4E79-B410-62BD2591F7D6</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FBE89339-30DF-4E79-B410-62BD2591F7D6.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>SimpleApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SimpleApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project SimpleApp with scheme SimpleApp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>574353317.49487603</real>
+			<key>timeStoppedRecording</key>
+			<real>574353322.69080901</real>
+			<key>title</key>
+			<string>Building project SimpleApp with scheme SimpleApp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>FBE89339-30DF-4E79-B410-62BD2591F7D6</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

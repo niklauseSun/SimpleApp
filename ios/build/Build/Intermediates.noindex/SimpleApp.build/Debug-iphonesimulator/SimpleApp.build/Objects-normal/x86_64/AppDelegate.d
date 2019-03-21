@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/sunyujian/Coding/Calculate111/app/SimpleApp/ios/SimpleApp/AppDelegate.m \
+  /Users/sunyujian/Coding/Calculate111/app/SimpleApp/ios/SimpleApp/AppDelegate.h \
+  /Users/sunyujian/Coding/Calculate111/app/SimpleApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBundleURLProvider.h \
+  /Users/sunyujian/Coding/Calculate111/app/SimpleApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/sunyujian/Coding/Calculate111/app/SimpleApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/sunyujian/Coding/Calculate111/app/SimpleApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/sunyujian/Coding/Calculate111/app/SimpleApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/sunyujian/Coding/Calculate111/app/SimpleApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/sunyujian/Coding/Calculate111/app/SimpleApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/sunyujian/Coding/Calculate111/app/SimpleApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/sunyujian/Coding/Calculate111/app/SimpleApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/sunyujian/Coding/Calculate111/app/SimpleApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLinkingManager.h \
+  /Users/sunyujian/Coding/Calculate111/app/SimpleApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/sunyujian/Coding/Calculate111/app/SimpleApp/ios/Bugly.framework/Modules/module.modulemap \
+  /Users/sunyujian/Coding/Calculate111/app/SimpleApp/ios/Bugly.framework/Headers/BuglyLog.h \
+  /Users/sunyujian/Coding/Calculate111/app/SimpleApp/ios/Bugly.framework/Headers/BuglyConfig.h \
+  /Users/sunyujian/Coding/Calculate111/app/SimpleApp/ios/Bugly.framework/Headers/Bugly.h \
+  ../node_modules/react-native-splash-screen/ios/RNSplashScreen.h

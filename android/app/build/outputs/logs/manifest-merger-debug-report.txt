@@ -1,0 +1,310 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:1:1-35:12
+MERGED from [:react-native-picker] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-spinkit] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-spinkit/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-16:12
+MERGED from [:react-native-splash-screen] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-splash-screen/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:RCTWeChat] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-wechat/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:react-native-device-info] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [:react-native-gesture-handler] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.tencent.bugly:crashreport:2.8.6.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/crashreport-2.8.6.0.aar/dd59a05db9698de09dadf574d56e634a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.tencent.bugly:nativecrashreport:3.6.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/nativecrashreport-3.6.0.1.aar/fee2d413e40bd1e1017dc0355daf34b3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/0b134d716ce97d7188184346d03ad61b/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/2fe74b5e300e1d8e9c5110f39746324c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.ybq:Android-SpinKit:1.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/Android-SpinKit-1.1.0.aar/dd1793b77ae5ebe3db81d62959cf72f8/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/3d79cc2063480b7bddc2edfc27af18a6/AndroidManifest.xml:17:1-28:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/87dec3b8f950aa89f02ee1a0e7c0d873/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/80ab143bac2611a7aa8a1a58d78cad2c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/64557643084f1265f55664e3213ebc1e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/1c153d049286e3d55040649c8124b45a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/e28ba1d08a225622c99d6e7919bea365/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/2c56f4bca9c937af1852b24df2c81eac/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/df3d3afcc31486813a9e3a79164b1b48/AndroidManifest.xml:1:1-3:12
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/44085e0c673e26a0cb7190beec1e5ba8/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e2c98e4f88c8d4759265388564016fe7/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/cec544fef8188ebc710d700b80ef306d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f3c3b51c80cf85b7828a155e58af5fe8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/26bce187321c65325d46cdc88bf67b17/AndroidManifest.xml:17:1-28:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/f2f7f42b06c26ed42b833d0f6aac4b7e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c545693ea8b22f0c549c67b42126e686/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1a57547b89eae1e5c50e1ff4acde2367/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/79ba890f18e5605fc7d579842c46f5bb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/b74885f2c5126a4abf7255996f4987e3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/dd7ead1090aecd7142d8d1f48d02bdba/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/68fee411fde0278b51d4ed7883d9e374/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/1d3ca364ced924b100df4bf52bb482c6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d5cb3d07f1255a18aaf143e556694012/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ed7286b8480ad584a085b68ea0fe5ec8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/00e7a396d998c3f818da5955d4b16aed/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4c1994ddba7ef33cb0f6c1eb085572ca/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bae5310907652a9d2c2253ade931b575/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:1:1-35:12
+	package
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:2:5-24
+		INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:1:1-35:12
+		INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:1:1-35:12
+		INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:RCTWeChat] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-wechat/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
+MERGED from [:RCTWeChat] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-wechat/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/3d79cc2063480b7bddc2edfc27af18a6/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/3d79cc2063480b7bddc2edfc27af18a6/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/44085e0c673e26a0cb7190beec1e5ba8/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/44085e0c673e26a0cb7190beec1e5ba8/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [:react-native-picker] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-78
+MERGED from [:react-native-picker] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/0b134d716ce97d7188184346d03ad61b/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/0b134d716ce97d7188184346d03ad61b/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:6:5-75
+MERGED from [:RCTWeChat] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-wechat/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-75
+MERGED from [:RCTWeChat] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-wechat/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:6:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:7:5-79
+MERGED from [:RCTWeChat] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-wechat/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-79
+MERGED from [:RCTWeChat] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-wechat/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:8:5-76
+MERGED from [:RCTWeChat] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-wechat/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-76
+MERGED from [:RCTWeChat] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-wechat/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:8:22-73
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:9:22-65
+application
+ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:11:5-33:19
+MERGED from [:react-native-spinkit] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-spinkit/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-14:19
+MERGED from [:react-native-spinkit] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-spinkit/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-14:19
+MERGED from [:react-native-splash-screen] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-splash-screen/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-splash-screen] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-splash-screen/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-device-info] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-20:19
+MERGED from [:react-native-device-info] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-20:19
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/0b134d716ce97d7188184346d03ad61b/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/0b134d716ce97d7188184346d03ad61b/AndroidManifest.xml:13:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/3d79cc2063480b7bddc2edfc27af18a6/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/3d79cc2063480b7bddc2edfc27af18a6/AndroidManifest.xml:26:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/2c56f4bca9c937af1852b24df2c81eac/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/2c56f4bca9c937af1852b24df2c81eac/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/df3d3afcc31486813a9e3a79164b1b48/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/df3d3afcc31486813a9e3a79164b1b48/AndroidManifest.xml:2:3-17
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/44085e0c673e26a0cb7190beec1e5ba8/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/44085e0c673e26a0cb7190beec1e5ba8/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e2c98e4f88c8d4759265388564016fe7/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e2c98e4f88c8d4759265388564016fe7/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/cec544fef8188ebc710d700b80ef306d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/cec544fef8188ebc710d700b80ef306d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f3c3b51c80cf85b7828a155e58af5fe8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f3c3b51c80cf85b7828a155e58af5fe8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/26bce187321c65325d46cdc88bf67b17/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/26bce187321c65325d46cdc88bf67b17/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c545693ea8b22f0c549c67b42126e686/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c545693ea8b22f0c549c67b42126e686/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1a57547b89eae1e5c50e1ff4acde2367/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1a57547b89eae1e5c50e1ff4acde2367/AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from [:react-native-spinkit] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-spinkit/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:13:7-39
+	android:icon
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:14:7-41
+	android:allowBackup
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:15:7-34
+	android:theme
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:16:7-38
+	android:name
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:12:7-58
+activity#com.rongletech.wangu.MainActivity
+ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:17:7-26:18
+	android:label
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:19:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:21:9-51
+	android:configChanges
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:20:9-79
+	android:name
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:18:9-57
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:22:9-25:25
+action#android.intent.action.MAIN
+ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:23:13-65
+	android:name
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:23:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:24:13-73
+	android:name
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:24:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:27:7-84
+	android:name
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:27:17-81
+activity#com.rongletech.wangu.wxapi.WXEntryActivity
+ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:28:9-32:15
+	android:label
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:30:13-45
+	android:exported
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:29:13-70
+uses-sdk
+INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-picker] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-picker] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-spinkit] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-spinkit/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-spinkit] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-spinkit/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-splash-screen/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-splash-screen/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:RCTWeChat] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-wechat/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:RCTWeChat] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-wechat/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-device-info] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-device-info] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tencent.bugly:crashreport:2.8.6.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/crashreport-2.8.6.0.aar/dd59a05db9698de09dadf574d56e634a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:2.8.6.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/crashreport-2.8.6.0.aar/dd59a05db9698de09dadf574d56e634a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.6.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/nativecrashreport-3.6.0.1.aar/fee2d413e40bd1e1017dc0355daf34b3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.6.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/nativecrashreport-3.6.0.1.aar/fee2d413e40bd1e1017dc0355daf34b3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/0b134d716ce97d7188184346d03ad61b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/0b134d716ce97d7188184346d03ad61b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/2fe74b5e300e1d8e9c5110f39746324c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/2fe74b5e300e1d8e9c5110f39746324c/AndroidManifest.xml:20:5-44
+MERGED from [com.github.ybq:Android-SpinKit:1.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/Android-SpinKit-1.1.0.aar/dd1793b77ae5ebe3db81d62959cf72f8/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.ybq:Android-SpinKit:1.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/Android-SpinKit-1.1.0.aar/dd1793b77ae5ebe3db81d62959cf72f8/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/3d79cc2063480b7bddc2edfc27af18a6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/3d79cc2063480b7bddc2edfc27af18a6/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/87dec3b8f950aa89f02ee1a0e7c0d873/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/87dec3b8f950aa89f02ee1a0e7c0d873/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/80ab143bac2611a7aa8a1a58d78cad2c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/80ab143bac2611a7aa8a1a58d78cad2c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/64557643084f1265f55664e3213ebc1e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/64557643084f1265f55664e3213ebc1e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/1c153d049286e3d55040649c8124b45a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/1c153d049286e3d55040649c8124b45a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/e28ba1d08a225622c99d6e7919bea365/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/e28ba1d08a225622c99d6e7919bea365/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/2c56f4bca9c937af1852b24df2c81eac/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/2c56f4bca9c937af1852b24df2c81eac/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/44085e0c673e26a0cb7190beec1e5ba8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/44085e0c673e26a0cb7190beec1e5ba8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e2c98e4f88c8d4759265388564016fe7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e2c98e4f88c8d4759265388564016fe7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/cec544fef8188ebc710d700b80ef306d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/cec544fef8188ebc710d700b80ef306d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f3c3b51c80cf85b7828a155e58af5fe8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/f3c3b51c80cf85b7828a155e58af5fe8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/26bce187321c65325d46cdc88bf67b17/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/26bce187321c65325d46cdc88bf67b17/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/f2f7f42b06c26ed42b833d0f6aac4b7e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/f2f7f42b06c26ed42b833d0f6aac4b7e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c545693ea8b22f0c549c67b42126e686/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c545693ea8b22f0c549c67b42126e686/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1a57547b89eae1e5c50e1ff4acde2367/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1a57547b89eae1e5c50e1ff4acde2367/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/79ba890f18e5605fc7d579842c46f5bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/79ba890f18e5605fc7d579842c46f5bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/b74885f2c5126a4abf7255996f4987e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/b74885f2c5126a4abf7255996f4987e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/dd7ead1090aecd7142d8d1f48d02bdba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/dd7ead1090aecd7142d8d1f48d02bdba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/68fee411fde0278b51d4ed7883d9e374/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/68fee411fde0278b51d4ed7883d9e374/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/1d3ca364ced924b100df4bf52bb482c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/1d3ca364ced924b100df4bf52bb482c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d5cb3d07f1255a18aaf143e556694012/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d5cb3d07f1255a18aaf143e556694012/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ed7286b8480ad584a085b68ea0fe5ec8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ed7286b8480ad584a085b68ea0fe5ec8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/00e7a396d998c3f818da5955d4b16aed/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/00e7a396d998c3f818da5955d4b16aed/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4c1994ddba7ef33cb0f6c1eb085572ca/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4c1994ddba7ef33cb0f6c1eb085572ca/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bae5310907652a9d2c2253ade931b575/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bae5310907652a9d2c2253ade931b575/AndroidManifest.xml:20:5-44
+INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c545693ea8b22f0c549c67b42126e686/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:RCTWeChat] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-wechat/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from [:RCTWeChat] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-wechat/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/sunyujian/Coding/Calculate111/app/SimpleApp/android/app/src/main/AndroidManifest.xml:1:1-35:12 reason: com.theweflex.react requested WRITE_EXTERNAL_STORAGE
+receiver#com.learnium.RNDeviceInfo.RNDeviceReceiver
+ADDED from [:react-native-device-info] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-19:20
+	android:enabled
+		ADDED from [:react-native-device-info] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-35
+	android:exported
+		ADDED from [:react-native-device-info] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from [:react-native-device-info] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-70
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [:react-native-device-info] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:13-18:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [:react-native-device-info] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:17-79
+	android:name
+		ADDED from [:react-native-device-info] /Users/sunyujian/Coding/Calculate111/app/SimpleApp/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:25-76
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:16.0.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/3d79cc2063480b7bddc2edfc27af18a6/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/44085e0c673e26a0cb7190beec1e5ba8/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/44085e0c673e26a0cb7190beec1e5ba8/AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:16.0.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/3d79cc2063480b7bddc2edfc27af18a6/AndroidManifest.xml:23:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e2c98e4f88c8d4759265388564016fe7/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e2c98e4f88c8d4759265388564016fe7/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e2c98e4f88c8d4759265388564016fe7/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/e2c98e4f88c8d4759265388564016fe7/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/26bce187321c65325d46cdc88bf67b17/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/26bce187321c65325d46cdc88bf67b17/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/26bce187321c65325d46cdc88bf67b17/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c545693ea8b22f0c549c67b42126e686/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1a57547b89eae1e5c50e1ff4acde2367/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1a57547b89eae1e5c50e1ff4acde2367/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c545693ea8b22f0c549c67b42126e686/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/sunyujian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c545693ea8b22f0c549c67b42126e686/AndroidManifest.xml:27:13-51
