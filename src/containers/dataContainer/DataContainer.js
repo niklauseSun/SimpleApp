@@ -291,11 +291,12 @@ class DataContainer extends Component {
     }
 
     if (E.IS_IOS) {
+      console.log('rednerPredictDose', global.SessionID)
       return <WebView
         ref='webviewPredict'
         onLoadEnd={() => {
-          console.log('load end', this.refs.webview)
-          this.refs.webviewPredict.postMessage(`${2};${global.SessionID};${global.globalServer}`)
+          // console.log('load end', this.refs.webview, global.SessionID, global.globalServer)
+          this.refs.webviewPredict.postMessage(`${3};${global.SessionID};${global.globalServer}`)
         }}
         javaScriptEnabled={true}
         style={{ flex: 1, width: px(750) }}
@@ -348,7 +349,7 @@ class DataContainer extends Component {
         ref='webviewAdjustPredict'
         onLoadEnd={() => {
           console.log('load end', this.refs.webview)
-          this.refs.webviewAdjustPredict.postMessage(`${3};${global.SessionID};${global.globalServer}`)
+          this.refs.webviewAdjustPredict.postMessage(`${2};${global.SessionID};${global.globalServer}`)
         }}
         javaScriptEnabled={true}
         style={{ flex: 1, width: px(750) }}

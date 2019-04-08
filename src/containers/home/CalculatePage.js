@@ -110,7 +110,7 @@ class CalculatePage extends Component {
       return <WebView
         ref='webview'
         onLoadEnd={() => {
-          console.log('load end', this.refs.webview)
+          console.log('load end', this.refs.webview, global.SessionID, global.globalServer)
           this.refs.webview.postMessage(`${calculateType};${global.SessionID};${global.globalServer}`)
         }}
         javaScriptEnabled={true}
