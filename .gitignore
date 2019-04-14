@@ -1,5 +1,6 @@
 
 .DS_Store
+
 node_modules
 build
 .lock.json
@@ -64,4 +65,5 @@ typings/
 
 # next.js build output
 .next
+
 
