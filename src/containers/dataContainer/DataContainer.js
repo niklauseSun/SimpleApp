@@ -54,6 +54,7 @@ class DataContainer extends Component {
       this.startLoadAdjustCalculateData()
       this.startLoadPredictDoseData()
       this.startLoadAdjustPredictDoseData()
+      this.postMessageAfterLogin();
     })
   }
 
@@ -667,11 +668,17 @@ class DataContainer extends Component {
     }
   }
 
+  postMessageAfterLogin() {
+    this.refs.webviewBegin.postMessage(`${0};${global.SessionID};${global.globalServer}`)
+    this.refs.webviewAdjust.postMessage(`${1};${global.SessionID};${global.globalServer}`)
+    this.refs.webviewPredict.postMessage(`${3};${global.SessionID};${global.globalServer}`)
+    this.refs.webviewAdjustPredict.postMessage(`${2};${global.SessionID};${global.globalServer}`)
+  }
+
   componentWillUnmount() {
     this.listener.remove();
     this.dataAdjust.remove();
   }
-
 }
 
 const styles = StyleSheet.create({

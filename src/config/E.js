@@ -10,11 +10,11 @@ export default {
   // 系统是iOS
   IS_IOS: (Platform.OS === 'ios'),
   // 测试
-  SERVER_HOME: 'https://wangu.91xiaoapp.com:8081/Huashan.WebAPI/',
+  // SERVER_HOME: 'https://wangu.91xiaoapp.com:8081/Huashan.WebAPI/',
   // release
-  // SERVER_HOME: 'https://wangu.91xiaoapp.com/Huashan.WebAPI/',
+  SERVER_HOME: 'https://wangu.91xiaoapp.com/Huashan.WebAPI/',
 
-  VERSION: '1.1.0',
+  VERSION: '1.1.2',
 
   // 微信
   WECHAT_APP_ID: 'wxea535c9d15180464',
