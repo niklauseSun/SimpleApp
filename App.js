@@ -26,6 +26,7 @@ import { login } from './src/reducers'
 import { E } from './src/config'
 import SplashScreen from 'react-native-splash-screen'
 import { LocalStore } from './src/utils';
+import codePush from "react-native-code-push";
 
 const navReducer = createNavigationReducer(AppNavigator);
 
@@ -70,7 +71,7 @@ global.globalServer = null
 // 隐藏 黄色提示
 console.disableYellowBox = true;
 
-export default class App extends Component {
+class App extends Component {
   componentDidMount() {
     SplashScreen.hide()
     WeChat.registerApp(E.WECHAT_APP_ID)
@@ -95,3 +96,7 @@ export default class App extends Component {
     )
   }
 }
+
+App = codePush(App);
+
+export default App

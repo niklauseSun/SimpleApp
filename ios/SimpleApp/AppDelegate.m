@@ -12,6 +12,7 @@
 #import <React/RCTLinkingManager.h>
 #import <Bugly/Bugly.h>
 #import "RNSplashScreen.h"
+#import <CodePush/CodePush.h>
 
 @implementation AppDelegate
 
@@ -22,7 +23,7 @@
   #ifdef DEBUG
     jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
   #else
-    jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
+    jsCodeLocation = [CodePush bundleURL];
   #endif
 
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
