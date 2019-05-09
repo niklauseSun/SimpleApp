@@ -106,17 +106,17 @@ class CalculatePage extends Component {
   renderSeparate(buttonTitle) {
     const { calculateType = 0 } = this.props.navigation.state.params || {};
     console.log('renderSeparate', calculateType)
-    if (E.IS_IOS) {
-      return <WebView
-        ref='webview'
-        onLoadEnd={() => {
-          console.log('load end', this.refs.webview, global.SessionID, global.globalServer)
-          this.refs.webview.postMessage(`${calculateType};${global.SessionID};${global.globalServer}`)
-        }}
-        javaScriptEnabled={true}
-        style={{ flex: 1, width: px(730) }} 
-        source={{ uri: 'http://localhost:3100/todo/index.html'}} />
-    }
+    // if (E.IS_IOS) {
+    //   return <WebView
+    //     ref='webview'
+    //     onLoadEnd={() => {
+    //       console.log('load end', this.refs.webview, global.SessionID, global.globalServer)
+    //       this.refs.webview.postMessage(`${calculateType};${global.SessionID};${global.globalServer}`)
+    //     }}
+    //     javaScriptEnabled={true}
+    //     style={{ flex: 1, width: px(730) }} 
+    //     source={{ uri: 'http://localhost:3100/todo/index.html'}} />
+    // }
 
     return (
       <View style={{ flex: 1 }}>

@@ -7,7 +7,9 @@ import { ActionTypes } from '../../constants';
 import { connect } from 'react-redux';
 import { E } from '../../config'
 
-const webUrl = "http://localhost:3100/index.html"
+const webUrl = "https://wangu.91xiaoapp.com/App.Web/index.html"
+
+// const webUrl = "https://wangu.91xiaoapp.com/App.Web/todo/index.html"
 
 class DataContainer extends Component {
   constructor(props) {
@@ -54,7 +56,7 @@ class DataContainer extends Component {
       this.startLoadAdjustCalculateData()
       this.startLoadPredictDoseData()
       this.startLoadAdjustPredictDoseData()
-      this.postMessageAfterLogin();
+      // this.postMessageAfterLogin();
     })
   }
 
@@ -174,25 +176,26 @@ class DataContainer extends Component {
       return null
     }
 
-    if (E.IS_IOS) {
-      return <WebView
-        ref='webviewBegin'
-        onLoadEnd={() => {
-          console.log('load end', this.refs.webview)
-          this.refs.webviewBegin.postMessage(`${0};${global.SessionID};${global.globalServer}`)
-        }}
-        javaScriptEnabled={true}
-        style={{ flex: 1, width: px(750) }}
-        source={{ uri: webUrl }} />
-      // return <WebView
-      //   injectJavaScript={
-      //     `window.dataIndex = '1';
-      //     window.sessionId = ${global.SessionID}
-      //     window.server = ${global.globalServer}
-      //     `
-      //   }
-      //   style={{ flex: 1, width: px(718) }} source={{ uri: 'https://wangu.91xiaoapp.com/App.Web/index.html' }} />
-    }
+    // if (E.IS_IOS) {
+      
+    //   return <WebView
+    //     ref='webviewBegin'
+    //     onLoadEnd={() => {
+    //       console.log('load end', this.refs.webview)
+    //       this.refs.webviewBegin.postMessage(`${0};${global.SessionID};${global.globalServer}`)
+    //     }}
+    //     javaScriptEnabled={true}
+    //     style={{ flex: 1, width: px(750) }}
+    //     source={{ uri: webUrl }} />
+    //   // return <WebView
+    //   //   injectJavaScript={
+    //   //     `window.dataIndex = '1';
+    //   //     window.sessionId = ${global.SessionID}
+    //   //     window.server = ${global.globalServer}
+    //   //     `
+    //   //   }
+    //   //   style={{ flex: 1, width: px(718) }} source={{ uri: 'https://wangu.91xiaoapp.com/App.Web/index.html' }} />
+    // }
 
     if (this.state.beginCalculateData.length == 0) {
       return <View style={{ width: '100%', height: '100%', alignItems: 'center', justifyContent: 'center'}}>
@@ -238,17 +241,17 @@ class DataContainer extends Component {
       return null
     }
 
-    if (E.IS_IOS) {
-      return <WebView
-        ref='webviewAdjust'
-        onLoadEnd={() => {
-          console.log('load end', this.refs.webview)
-          this.refs.webviewAdjust.postMessage(`${1};${global.SessionID};${global.globalServer}`)
-        }}
-        javaScriptEnabled={true}
-        style={{ flex: 1, width: px(750) }}
-        source={{ uri: webUrl }} />
-    }
+    // if (E.IS_IOS) {
+    //   return <WebView
+    //     ref='webviewAdjust'
+    //     onLoadEnd={() => {
+    //       console.log('load end', this.refs.webview)
+    //       this.refs.webviewAdjust.postMessage(`${1};${global.SessionID};${global.globalServer}`)
+    //     }}
+    //     javaScriptEnabled={true}
+    //     style={{ flex: 1, width: px(750) }}
+    //     source={{ uri: webUrl }} />
+    // }
 
     if (this.state.adjustCalculateData.length == 0) {
       return <View style={{ width: '100%', height: '100%', alignItems: 'center', justifyContent: 'center' }}>
@@ -291,18 +294,18 @@ class DataContainer extends Component {
       return null
     }
 
-    if (E.IS_IOS) {
-      console.log('rednerPredictDose', global.SessionID)
-      return <WebView
-        ref='webviewPredict'
-        onLoadEnd={() => {
-          // console.log('load end', this.refs.webview, global.SessionID, global.globalServer)
-          this.refs.webviewPredict.postMessage(`${3};${global.SessionID};${global.globalServer}`)
-        }}
-        javaScriptEnabled={true}
-        style={{ flex: 1, width: px(750) }}
-        source={{ uri: webUrl }} />
-    }
+    // if (E.IS_IOS) {
+    //   console.log('rednerPredictDose', global.SessionID)
+    //   return <WebView
+    //     ref='webviewPredict'
+    //     onLoadEnd={() => {
+    //       // console.log('load end', this.refs.webview, global.SessionID, global.globalServer)
+    //       this.refs.webviewPredict.postMessage(`${3};${global.SessionID};${global.globalServer}`)
+    //     }}
+    //     javaScriptEnabled={true}
+    //     style={{ flex: 1, width: px(750) }}
+    //     source={{ uri: webUrl }} />
+    // }
 
     if (this.state.predictDoseData.length == 0) {
       return <View style={{ width: '100%', height: '100%', alignItems: 'center', justifyContent: 'center' }}>
@@ -345,17 +348,17 @@ class DataContainer extends Component {
       return null
     }
 
-    if (E.IS_IOS) {
-      return <WebView
-        ref='webviewAdjustPredict'
-        onLoadEnd={() => {
-          console.log('load end', this.refs.webview)
-          this.refs.webviewAdjustPredict.postMessage(`${2};${global.SessionID};${global.globalServer}`)
-        }}
-        javaScriptEnabled={true}
-        style={{ flex: 1, width: px(750) }}
-        source={{ uri: webUrl }} />
-    }
+    // if (E.IS_IOS) {
+    //   return <WebView
+    //     ref='webviewAdjustPredict'
+    //     onLoadEnd={() => {
+    //       console.log('load end', this.refs.webview)
+    //       this.refs.webviewAdjustPredict.postMessage(`${2};${global.SessionID};${global.globalServer}`)
+    //     }}
+    //     javaScriptEnabled={true}
+    //     style={{ flex: 1, width: px(750) }}
+    //     source={{ uri: webUrl }} />
+    // }
 
     if (this.state.adjustPredictDoseData.length == 0) {
       return <View style={{ width: '100%', height: '100%', alignItems: 'center', justifyContent: 'center' }}>
